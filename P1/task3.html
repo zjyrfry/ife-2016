@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <style>
+    /* border and padding */
+    main, .left, .right, .mid, .logo{
+      padding: 20px;
+      border: 1px solid #999;
+    }
+    /* background-color */
+    main, .logo{
+      background-color: #eee;
+    }
+    .left, .right, .mid{
+      background-color: white;
+    }
+    /* layout */
+    .mid{
+      margin-left: 174px;
+      margin-right: 150px;
+    }
+    .left {
+      width: 120px;
+      float: left;
+    }
+    .right{
+      width: 96px;
+      float: right;
+    }
+    .logo{
+      width: 60px;
+      height: 60px;
+    }
+    .right .logo{
+      margin: 10px auto;
+    }
+    /* clear fix */
+    main:before, main:after{
+      content: "";
+      display: table;
+    }
+    main:after{
+      clear: both;
+    }
+    main{
+      *zoom: 1;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+    <div class='left'>
+      <div class="logo">团队LOGO</div>
+    </div>
+    <div class='right'>
+      <div class="logo">团队LOGO</div>
+      <div class="logo">团队LOGO</div>
+      <div class="logo">团队LOGO</div>
+      <div class="logo">团队LOGO</div>
+    </div>
+    <div class="mid">
+      <h2>团队介绍</h2>
+      这是我们的团队哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈
+      这是我们的团队哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈
+      这是我们的团队哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈这是我们的团队哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈
+    </div>
+    <div class='clear'></div>
+    </main>
+  </body>
+</html>
