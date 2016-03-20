@@ -1,0 +1,150 @@
+/* reset */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body, table, tr, th, td, form, input, ul, li, div, a, h2, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* nav */
+
+nav {
+  width: 100%;
+  min-height: 35px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+}
+
+nav .navbar-header {
+  float: left;
+  margin: 10px 5px 0 5px;
+}
+
+.navbar-header .navbar-title {
+  float: left;
+  margin: 5px auto auto 10px;
+  font-size: 20px;
+}
+
+.navbar-header .logo {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(http://7xs2qq.com1.z0.glb.clouddn.com/nav-logo.png) no-repeat;
+}
+
+.navbar-list {
+  float: right;
+}
+
+.navbar > ul > li {
+  float: left;
+  list-style: none;
+  margin: auto 10px auto 10px;
+  line-height: 58px;
+}
+
+
+/* slide-intro */
+
+.slide-intro {
+  margin-top: 35px;
+  height: 670px;
+  background: url(http://7xs2qq.com1.z0.glb.clouddn.com/slogan-bg.png) no-repeat;
+  background-size: cover;
+}
+
+.intro-text {
+  padding: 20% 50% 30% 10%;
+  color: white;
+}
+
+.intro-text > h1 {
+  font-size: 60px;
+}
+
+.intro-text > h6 {
+  font-size: 22px;
+  margin: -20px 200px 60px 5px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  padding: 20px 30%;
+  height: 40px;
+  width: 100px;
+  transition: all 0.15s linear;
+}
+
+.btn:hover {
+  background-color: pink;
+}
+
+
+/* intro-list */
+
+.slide-intro-list {
+  font-size: 0;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.intro-block {
+  width: 25%;
+  display: inline-block;
+}
+
+.intro-block div {
+  height: 70px;
+  background-position: center;
+}
+
+.intro-block p {
+  height: 40px;
+  border-right: solid 2px gray;
+  text-align: center;
+  font-size: 14px;
+  padding: 0 25%;
+}
+
+.intro-block:last-child p{
+  border-right: none;
+}
+
+.intro-img1 {
+  background: url(http://7xs2qq.com1.z0.glb.clouddn.com/advancement-1.png) no-repeat;
+}
+
+.intro-img2 {
+  background: url(http://7xs2qq.com1.z0.glb.clouddn.com/advancement-2.png) no-repeat;
+}
+
+.intro-img3 {
+  background: url(http://7xs2qq.com1.z0.glb.clouddn.com/advancement-3.png) no-repeat;
+}
+
+.intro-img4 {
+  background: url(http://7xs2qq.com1.z0.glb.clouddn.com/advancement-4.png) no-repeat;
+}
+
+
+/* clear fix */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
