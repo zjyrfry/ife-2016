@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset='utf8'>
+<style>
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 200px;
+  width: 400px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.left-top,
+.right-bottom {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: #fc0;
+  position: relative;
+}
+
+.left-top {
+  top: -50px;
+  left: -50px;
+}
+
+.right-bottom {
+  float: right;
+  bottom: -50px;
+  right: -50px;
+}
+
+</style>
+</head>
+<body>
+<main>
+  <div class='left-top'></div>
+  <div class='right-bottom'></div>
+</main>
+</body>
+</html>
 
